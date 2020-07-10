@@ -3,6 +3,7 @@ import StripeCheckout from 'react-stripe-checkout';
 
 class Payment extends Component {
   render() {
+
     return (
       <StripeCheckout
         amount={500}
